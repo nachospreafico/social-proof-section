@@ -6,10 +6,7 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        'league-spartan': ['League Spartan', 'sans-serif'],
-        // Add more font families here if needed
-      },
+      
     },
   },
   plugins: [],
