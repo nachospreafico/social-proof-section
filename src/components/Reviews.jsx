@@ -1,7 +1,7 @@
 const Reviews = ({ img, name, text, position }) => {
   return (
     <div
-      className={`bg-[#512051] p-8 rounded-lg gap-6 flex flex-col lg:self-${position} lg:h-fit`}
+      className={`reviews-container bg-[#512051] p-8 rounded-lg gap-6 flex flex-col lg:self-${position} lg:h-fit`}
     >
       <div className="flex flex-row gap-6 items-center">
         <img src={img} className="rounded-full w-[40px] h-[40px]"></img>
